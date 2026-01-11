@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* BODY */
+body {
+  background-color: #58aab2;
+  color: rgb(76, 76, 149);
+}
+
+/* CONTAINER UTAMA */
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* ================= NAVBAR ================= */
+.NAVBAR-Container {
+  background-color: #1c62d2;
+  padding: 15px 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.NAVBAR-ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  
+}
+
+.a-navbar {
+  color: #ffffff;
+  text-decoration:solid;
+  font-weight :bolder;
+  transition: 0.2s;
+}
+
+.a-navbar:hover {
+  color: #38bdf8;
+}
+
+/* ================= CONTENT ================= */
+.container-content {
+  background-color:white;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* LINK AREA */
+.a-content {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* IMAGE */
+.img-content {
+  border-radius: 15px;
+  object-fit: cover;
+  margin-bottom: 15px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.img-content:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+
